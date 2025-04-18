@@ -342,8 +342,7 @@ span.swiper-pagination-bullet-active {
 .customers {
   width: 100%;
   min-height: 80vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-    url(images/image8.jpg) center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85));
   background-size: cover;
   position: relative;
   padding: 5rem 0;
@@ -628,6 +627,13 @@ footer {
   }
   .social-links {
     justify-content: center;
+  }
+  .landing-contact {
+    flex-direction: column;
+  }
+  .details {
+    width: 100%;
+    margin: 1rem 0;
   }
 }
 
